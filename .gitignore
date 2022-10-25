@@ -1,0 +1,6 @@
+*.pyc
+*.pyo
+*.hdf5
+*.json
+
+**/__pycache__/
