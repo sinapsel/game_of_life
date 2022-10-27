@@ -1,8 +1,9 @@
 from .game import Game, StateCollection
 from .IOItering import *
 from .plotting import AnimationPlotter
+from typing import List
 
-games: list[Game] = [
+games: List[Game] = [
     None,
     Game(init_state=StateCollection.RICKY),
     Game(init_state=StateCollection.CORNER),
